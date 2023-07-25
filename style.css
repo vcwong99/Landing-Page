@@ -1,15 +1,57 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #97ebdb;
+}
+
+a{
+    text-decoration: none;
+    color:white
+}
+
 .header{
-background-color: darkblue;
+height: 72px;
+background: #00c2c7;
 display:flex;
 justify-content: space-between;
 align-items: center;
+margin: 0px;
 padding:16px;
 }
 ul{
     list-style-type: none;
     display:flex;
-    gap:8px;
+    gap:16px;
 }
+
+.one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    background-color: #00c2c7;
+    padding:64px;
+}
+img.resize {
+    width:400px; /* you can use % */
+    height: auto;
+    border-radius: 20px;
+}
+.title{
+    font-size: 32px;
+    font-weight: bold;
+}
+.text{
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.content{
+    width: 200px;
+}
+
 .logo{
 
     color: white;
@@ -18,7 +60,12 @@ ul{
     font-style: italic;
 }
 
-a{
-    text-decoration: none;
-    color:white
+button{
+    padding:4px;
+    background-color: #007ddc;
+    color:white;
+    font-weight: 700;
+    border-radius: 5px;
+    border-color: transparent;
 }
+
