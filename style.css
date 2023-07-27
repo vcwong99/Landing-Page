@@ -16,26 +16,27 @@ a{
 height: 72px;
 background-color: #2D5D7B;
 display:flex;
-justify-content: space-evenly;
+justify-content: space-between;
 align-items: center;
 margin: 0px;
 padding:16px;
 }
-ul{
+.Header ul{
     list-style-type: none;
     display:flex;
     gap:16px;
+    margin-right:200px;
 }
 
 .one{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap:30px;
     background-color: #2D5D7B;
-    padding:64px;
+    padding-bottom: 32px;
 }
-img.resize {
+.one img {
+    margin-right:200px;
     width:400px;
     height: auto;
     border-radius: 20px;
@@ -53,11 +54,13 @@ Header .Link.text{
 }
 
 .Hero{
+    margin-left: 200px;
     color: #9AC2C9;
     width: 300px;
 }
 
 .Header .logo{
+    margin-left:200px;
     color: #9AC2C9;
     font-size: 32px;
     font-weight: 900;
@@ -114,7 +117,7 @@ button{
     color:#be6021;
 }
 .Quote .container{
-    padding:16px 200px;
+    padding:16px 250px;
 }
 .Quote .container .text{
     text-align: left;
@@ -129,7 +132,7 @@ button{
 }
 
 .signup{
-    padding:48px 150px;
+    padding:48px 200px;
 }
 .signup .container{
     background-color: #6C464F;
